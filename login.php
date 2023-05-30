@@ -11,29 +11,58 @@
 </head>
 <body>
 
-    <div class="loginsistem">
-        <h2>Login</h2>
+<div class="loginstyle">
+        <div class="loginstyle1">
+            <img src="layouts/assets/img/iconboba.png" alt="">
+            <h3> Login To SI BOBA</h3>
+        </div>
 
         <form action= "login_proses.php" method="post">
-            <table>
+            <table class="loginstyle2">
                 <tr>
-                    <td>Username</td>
-                    <td><input type="text" name="user_name" id=""></td>
+                    <td class="text1">Username or Email Address</td>
                 </tr>
 
                 <tr>
-                    <td>Password</td>
-                    <td><input type="text" name="user_password" id=""></td>
+                    <td class="block1"><input type="text" name="user_name" id=""></td>
                 </tr>
 
                 <tr>
-                    <td></td>
-                    <td><input type="submit" name="btn_login" value="LOGIN"></td>
+                    <td class="text1">Password</td>
+                </tr>
+                
+                <tr">
+                    <td class="block1"><input type="password" name="user_password" id=""></td>
+                </tr>
+
+                <tr>
+                    <td class="block2"><input type="submit" name="btn_login" value="Login"></td>
                 </tr>
 
             </table>
             
         </form>
+    </div>
+
+    <div class="logologin">
+        <div class="logologin1">
+            <div class="logologin2">
+                <a href="https://github.com/PatrickkkKing" target="_blank" rel="noopener noreferrer"><img src="layouts/assets/img/githublogo.png" alt=""></a>
+                <h4>GitHub</h4>
+            </div>
+            <div class="logologin2">
+                <a href="mailto:muklasputra222@gmail.com" target="_blank" rel="noopener noreferrer"><img src="layouts/assets/img/gmaillogo.png" alt=""></a>
+                <h4>Email</h4>
+            </div>
+            <div class="logologin2">
+                <a href="https://instagram.com/muklas_gilbert" target="_blank" rel="noopener noreferrer"><img src="layouts/assets/img/instagramlogo.png" alt=""></a>
+                <h4>Instagram</h4>
+            </div>
+            <div class="logologin2">
+                <a href="http://facebook.com/muklas.a.putra.988" target="_blank" rel="noopener noreferrer"><img src="layouts/assets/img/fblogo.png" alt=""></a>
+                <h4>Facebook</h4>
+            </div>
+        </div>
     </div>
 </body>
 </html>
