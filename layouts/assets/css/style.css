@@ -1,0 +1,219 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #D1A651;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #AA6112;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.brand {
+    width: 80px;
+}
+
+.user {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+main {
+    margin-left: 210px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    padding: 10px 20px;
+    margin: 5px 0 5px 0;
+    display: block;
+    color: #000000;
+}
+
+nav a:hover {
+    background-color: #E9C278;
+    border: 2px solid #560000;
+}
+
+nav .icon {
+    width: 25px;
+    float: left;
+    padding-right: 10px;
+}
+
+.info {
+    background-color: #AA6112;
+    padding: 20px;
+    margin-top: 10px;
+    color: #560000;
+    font-size: 20px;
+}
+
+.info a{
+    background-color: #560000;
+    height: 20px;
+    color: #AA6112;
+    padding: 19px;
+    margin-left: 68.5%;
+    
+}
+
+.info a:hover {
+    background-color: #333;
+    color: #560000;
+}
+
+table {
+    margin: 15px 0;
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+table th {
+    border: 1px solid #560000;
+    padding: 8px;
+    background-color: #AA6112;
+}
+
+table td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+.btn {
+    background-color: #AA6112;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: #560000;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    padding: 20px 0 20px 10px;
+    background-color: #AA6112;
+    width: 100%;
+    border-top: 1px solid #560000;
+}
+
+
+.imageboba img {
+    width: 150px;
+    /* float: left; */
+    padding-right: 20px;
+}
+
+.populer
+{
+	display: grid;
+	grid-template-columns: repeat(30, 1fr);
+	/* width: 90%;
+	margin-left: 10%;
+	margin-right: 7%; */
+}
+
+.popup 
+{
+    margin-left: 35%;
+    margin-top: 13%;
+    padding: 20px;
+    background: var(--dark-blue);
+    border-radius: 5px;
+    width: 30%;
+    position: fixed;
+    transition: all 5s ease-in-out;
+    background-color: #AA6112;
+}
+  
+.popup h2 {
+    margin-top: 0;
+    color: var(--white);
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover 
+{
+    color: #06D85F;
+}
+
+.content 
+{
+    max-height: 30%;
+    width: 50%;
+}
+
+.judul-produk
+{
+	margin-left: 20%;
+	color: #560000;
+    font-size: 20px;
+}
+
+.overlay 
+{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background: #560000 ; */
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+}
+
+.overlay:target 
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+.title-p {
+    color: #560000;
+    text-align: center;
+}
+
+.judul-logo {
+    display: flex;
+}
+
+.judul-logo img {
+    width: 80px;
+    /* float: left; */
+    padding-right: 20px;
+}

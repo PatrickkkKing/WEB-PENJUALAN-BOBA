@@ -1,0 +1,17 @@
+{
+    "name": "muklas/pbwl-project4",
+    "description": "Project 4 Pemrograman Berbasis Web Lanjutan Tahun 2023",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muklas Adi Putra",
+            "email": "muklasputra222@gmail.com"
+        }
+    ],
+    "require": {}
+}
